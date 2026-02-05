@@ -52,7 +52,7 @@ CHARACTER(KIND=C_CHAR), INTENT(INOUT) :: avcMSG    (NINT(avrSWAP(49)))  ! MESSAG
 
    ! Local Variables:
 
-REAL(4)                      :: Alpha                                           ! Current coefficient in the recursive, single-pole, low-pass filter, (-).
+REAL(4)                      :: Alpha                                           ! Current coefficient in the recursive, single-pole, low-pass filter, edited
 REAL(4)                      :: BlPitch   (3)                                   ! Current values of the blade pitch angles, rad.
 REAL(4)                      :: ElapTime                                        ! Elapsed time since the last call to the controller, sec.
 REAL(4), PARAMETER           :: CornerFreq    =      1.57079                   ! Corner frequency (-3dB point) in the recursive, single-pole, low-pass filter, rad/s. -- chosen to be 1/4 the blade edgewise natural frequency ( 1/4 of approx. 1Hz = 0.25Hz = 1.570796rad/s)
