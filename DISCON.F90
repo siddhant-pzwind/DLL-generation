@@ -1,5 +1,5 @@
 !**********************************************************************************************************************************
-! LICENSING
+! 
 ! Copyright (C) 2015-2016  National Renewable Energy Laboratory
 ! Copyright (C) 2016-2017  Envision Energy USA LTD
 !
